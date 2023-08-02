@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px;
+    position: sticky;
+    top:0;
+    z-index: 40;
+}
+.site-logo{
+    cursor: pointer;
+}
+.menu-list ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 18px;
+}
+.menu-list ul li{
+    margin: 0 20px;
+}
+
+.menu-list ul li a{
+    text-decoration: none;
+    font-family: 'REM', sans-serif;
+    color: rgb(0, 0, 0)
+}
+.menu-list ul li a:hover{
+    color: brown;
+}
+.navbar button{
+    background-color: brown;
+    position: relative;
+    top: -2px;
+    border: none;
+    cursor: pointer;
+    font-family: 'REM', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: white;
+    transition: 0.4s;
+}
+.navbar button:hover{
+    background-color: brown;
+    color: black;
+}
+
+.hero-section{
+    height: 110vh;
+    background-image: linear-gradient(rgba(43, 194, 214, 0.116),rgba(36, 84, 173, 0.911)), 
+    url('https://www.chitwancollege.edu.np/upload/test_original/temp/Original_Image6236bc950fc8e-1647754389/BIM.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-section h4{
+    position: relative;
+    top: 250px;
+    margin: 30px;
+    background: aliceblue;
+    background-size: 100px;
+    display: inline;
+    font-size: 22px;
+    color: brown;
+    padding: 7px;
+}
+.hero-section h2{
+    position: relative;
+    top: 250px;
+    margin: 25px;
+    font-family: sans-serif;
+    font-size: 56px;
+    color: white;
+}
+.rec1{
+    height: 800px; 
+    width: 800px;
+    position: relative;
+    left: 720px;
+    bottom: 800px;
+    z-index: 10;
+    background-color: #024f87;
+    /* background-image: linear-gradient(rgba(43, 194, 214, 0.116),rgba(127, 156, 209, 0.911)), */
+}
+.newim{
+    height: 84vh;
+    z-index: 20;
+    background-image: url('https://www.chitwancollege.edu.np/upload/frontendhome/UpdatedMainImage_1647762970380JsIX6pUk9kvtvu36sHnERykdfKSj5w2Bcp87EeG3.jpg');
+    background-repeat: no-repeat;
+    background-position: 680px;
+    position: relative;
+    bottom: 100px;
+    right: 10px;
+}
+.hero-section button{
+    position: relative;
+    bottom: 310px;
+    left: 40px;
+    cursor: pointer;
+    background-color: rgb(143, 17, 17);
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    transition: 0.4s;
+}
+.hero-section button:hover{
+    background-color: brown;
+    color: black;
+}
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 4px 4px 0px;
+    display: inline-block;
+    padding: 3.5px;
+  }
+  
+  .right {
+     transform: rotate(-45deg);
+  }
+  .btn button{
+    background-color: transparent;
+    position: relative;
+    bottom: 240px;
+    padding: 6px;
+    font-size: 18px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+  }
+ .btn button:hover{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    padding: 12px;
+  }
+  .btns button{
+    background-color: transparent;
+    position: relative;
+    bottom: 275px;
+    left: 270px;
+    padding: 6px;
+    font-size: 18px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+
+  }
+ .btns button:hover{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    padding: 12px;
+  }
+.bar{
+    padding: 15px;
+    background-color: rgb(59, 58, 146);
+    display: block;
+    font-family: 'REM', sans-serif;
+    color: white;
+    list-style-type: none;
+}
+.bar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+.bar ul li a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+    position: relative;
+}
