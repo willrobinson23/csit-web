@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>CCT College</title>
+    <title> CCT College</title>
+    <link rel="icon" href="icons.jpg">
 </head>
 <body>
     <div class="bar">
        <ul>
-        <li><a href="#">✆ Hotline: 056590346</a></li>
-        <li><a href="#">✉ info@chitwancollege.edu.np</a></li>
+        <li><a href="tel:056590346"><i class="fa fa-phone"></i> Hotline: 056590346</a></li>
+        <li><a href="mailto:info@chitwancollege.edu.np"><i class="fa fa-envelope"></i> info@chitwancollege.edu.np</a></li>
        </ul>
     </div>
     <div class="navbar">
@@ -19,12 +21,27 @@
         </div>
         <div class="menu-list">
             <ul >
-                <li><a href="#"><b>Home</b></a></li>
-                <li><a href="#"><b>About us</b></a></li>
-                <li><a href="#"><b>Courses</b></a></li>
-                <li><a href="#"><b>Admission</b></a></li>
-                <li><a href="#"><b>Events</b></a></li>
-                <li><a href="#"><b>Contact Us</b></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><div class="dropdn">
+                    <button>Courses<i class="fa fa-chevron-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="flex.html" target="_blank">BIM</a>
+                        <a href="#">BSC.CSIT</a>
+                        <a href="#">BCA</a>
+                      </div>
+                </div>
+                </li>
+                <li><div class="dropdn2">
+                    <button>Admissions<i class="fa fa-chevron-down"></i></button>
+                    <div class="dropdown-content2">
+                        <a href="#">Admission Procedure</a>
+                        <a href="#">Apply Online</a>
+                    </div>
+                </div>
+                </li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
         <button> <b>Apply Scholarship</b></button>
@@ -39,9 +56,9 @@
         </button>
         <div class="btn">
             <button>Know us Better →</button>
-        </div>
-        <div class="btns">
-            <button>Apply For Scholarship →</button>
+            <div class="btns">
+                <button>Apply For Scholarship →</button>
+            </div>
         </div>
     </div>
     <div class="rec1"></div>

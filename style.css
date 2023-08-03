@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=REM:wght@200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=REM:wght@200&family=Roboto&display=swap');
 
 *{
     margin: 0;
@@ -10,7 +11,7 @@
     justify-content: space-around ;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 1px 10px;
+    box-shadow: 0px 1px 6px;
     position: sticky;
     top:0;
     z-index: 40;
@@ -30,8 +31,9 @@
 
 .menu-list ul li a{
     text-decoration: none;
-    font-family: 'REM', sans-serif;
-    color: rgb(0, 0, 0)
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
 }
 .menu-list ul li a:hover{
     color: brown;
@@ -52,7 +54,6 @@
     background-color: brown;
     color: black;
 }
-
 .hero-section{
     height: 110vh;
     background-image: linear-gradient(rgba(43, 194, 214, 0.116),rgba(36, 84, 173, 0.911)), 
@@ -88,7 +89,6 @@
     bottom: 800px;
     z-index: 10;
     background-color: #024f87;
-    /* background-image: linear-gradient(rgba(43, 194, 214, 0.116),rgba(127, 156, 209, 0.911)), */
 }
 .newim{
     height: 84vh;
@@ -111,6 +111,7 @@
     color: white;
     padding: 15px;
     transition: 0.4s;
+    z-index: 20;
 }
 .hero-section button:hover{
     background-color: brown;
@@ -138,7 +139,8 @@
  .btn button:hover{
     background-color: rgb(255, 255, 255);
     color: brown;
-    padding: 12px;
+    padding: 6px 10px 6px 10px;
+    transform: translateX(8px);
   }
   .btns button{
     background-color: transparent;
@@ -154,7 +156,8 @@
  .btns button:hover{
     background-color: rgb(255, 255, 255);
     color: brown;
-    padding: 12px;
+    padding: 6px 10px 6px 10px;
+    transform: translateX(8px);
   }
 .bar{
     padding: 15px;
@@ -177,4 +180,89 @@
     text-decoration-style: none;
     color: white;
     position: relative;
+}
+.menu-list li select{
+    border: none;
+    border-style: none;
+}
+.dropdn button{
+    background: none;
+    color: black;
+    position: relative;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.dropdn button:hover{
+    background: none;
+    color: brown;
+}
+.dropdn{
+    position: relative;
+    top: 2px;
+    font-size: 18px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    
+  }
+.dropdn:hover .dropdown-content{
+    display: block;
+    background-color: #3e8e41;
+    
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+    transition: 0.6s;
+}
+.dropdn2{
+    background-color: none;
+    position: relative;
+    top: 2px;
+}
+.dropdn2 button{
+    background: none;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0;
+    font-size: 18px;
+}
+.dropdown-content2{
+    display: none;
+    color: black;
+    width: 150px;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #ddd;
+}
+.dropdown-content2 a{
+    color: black;
+    padding: 8px 12px;
+    display: block;
+}
+.dropdn2:hover .dropdown-content2{
+    display: block;
+    background: #3e8e41;
+}
+.dropdn2 button:hover{
+    background: none;
+    color: brown;
+}
+.dropdown-content2 a:hover {
+    background-color: #ddd;
+    transition: 0.6s;
 }

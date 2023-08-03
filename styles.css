@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flext{
+    background: rgb(211, 132, 132);
+    display: flex;
+    margin: 50px;
+    /* padding: 20px; */
+    width: 200px;
+    /* border: 3px solid #ddd; */
+    flex-direction: column;
+}
+.div1{
+    background-color: blanchedalmond;
+    padding:20px;
+}
+.div2{
+    background-color: rgb(228, 148, 28);
+    padding: 20px;
+}
+.div3{
+    background-color: rgb(86, 149, 179);
+    padding: 20px;
+}
+.div4{
+    background-color: rgb(166, 241, 27);
+    padding: 20px;
+}
